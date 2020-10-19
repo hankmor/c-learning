@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.17)
+project(c_learning C)
+
+set(CMAKE_C_STANDARD 90)
+
+#add_executable(c_learning 01-intro/hello.c)
+#add_executable(c_learning 02-variable/inttype.c)
+#add_executable(c_learning 02-variable/transchar.c)
+#add_executable(c_learning 04-operator/pointer.c)
+#add_executable(c_learning 04-operator/logicOperator.c)
+add_executable(c_learning 04-operator/assignOperator.c)
